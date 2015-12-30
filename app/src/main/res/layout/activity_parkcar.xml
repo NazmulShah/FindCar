@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_parkcar"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:text="Parking Car!"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_tagposition"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tag Position"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bt_tagphoto"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tag photo"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>
